@@ -12,8 +12,8 @@
   </entity>
   
   <entity name="MetaJsonModel" table="META_JSON_MODEL">
-    <many-to-one name="appBuilder" ref="com.axelor.studio.db.AppBuilder" title="App builder" />
-    <boolean name="isExportAsReal" title="Export as real" />
+  	<many-to-one name="appBuilder" ref="com.axelor.studio.db.AppBuilder" title="App builder" />
+    <boolean name="isReal" title="Export as real" />
   </entity>
 
 </domain-models>
